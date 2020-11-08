@@ -27,15 +27,60 @@ padding-right: 1rem
     color: #5678b8!important;
 }
 .nav-link.active,
-.nav-link;:hover{
+.nav-link:hover{
  color: #567b36!important   
 }
+
 /*---------Image Slider---------*/
-.carosel-item{height: 100vh;
+.caroupsel-item{height: 100vh;
 }
-#carosel {
+#carousel {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1)
 }
 
-.carosel-inner,
-.carosel-item-active { transition: transform 1.6s}
+.carousel-inner,
+.carousel-item-active { 
+    transition: transform 1.6s
+}
+
+.carousel-caption { 
+position: absolute;
+text-transform: uppercase;
+color: #000;
+}
+
+
+
+/*-------footer--------*/
+footer{
+ padding: 1rem 2rem 3rem;
+ background-color: #0e1116;    
+}
+
+footer img {
+height: 3.5rem;
+margin: 1.5rem;
+}
+ ul.social {
+     list-style-type: none;
+     display: flex;
+ }
+ ul.social li {
+     margin: 0 auto;
+ }
+
+/*---------- media queries ------------*/
+/*--- Extra small devices (portrait phones, less than 576px)-----*/
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+/ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
