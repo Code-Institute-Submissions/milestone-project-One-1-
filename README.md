@@ -1,45 +1,50 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+[VIEW LIVE PROJECT HERE](https://github.com/kaytee123/milestone-project-One-1-)   
+# This is a website project about luxury cars 
 
-Welcome kaytee123,
+## Testing
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-## Gitpod Reminders
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Bugs fixed
+-  On some phone display the text show on the carousel was active. Was fixed using the d-none 
+-  Social media font was not working due to update. fixed using the new update
+- Navbar toggle issue on certain screens covering up 70% of the screens
 
-A blue button should appear to click: *Make Public*,
+## Improvements
 
-Another blue button should appear to click: *Open Browser*.
+-   Responsive on every device known to me
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-   fixed problem of image slider sliding from 0.3secs to 7secs
+ 
+ ### Framework used 
 
-A blue button should appear to click: *Make Public*,
+[Bootstrap 4.4.2](https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css")
+    - Bootstrap is one of the best Framework used for making responsive website due to some built in jquery css and html
+ 
+ ### Media
+- Images used for my website were taken from instagram explore page and should not be used for any advertisement
+- Phone images on my website were taken directly from Iphone's instagram page
 
-Another blue button should appear to click: *Open Browser*.
+###  Font used
+[Google font:](https://fonts.google.com/)
+- Roboto is the font used for the making of this website with sans-serif as the back up font due to it poppularity
+- font weight used was from 100 to 700.
+- Sans-serif was used as a fallback fonts.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+### Content
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   All content were written by the developer.
+-   Content written for specifications of product are not legit.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Acknowledgements
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   [CodeInstitue](https://codeinstitute.net) 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   [Youtube](youtube.com) 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+-   Friends and Family
